@@ -1,10 +1,14 @@
 #!/bin/bash
 
+#Clone this repo before startup (fetching updates to scripts)
+cd Raspi-Crontab-Scripts
+git pull https://github.com/Hioness/Raspi-Crontab-Scripts
+
 echo 'on 0.0.0.0' | cec-client -s -d 1
 
 sleep 20
 
-#Wonder if this should be commented out
+#Changes screen resolution (4k doesn't scale well for this application)
 xrandr --output HDMI-1 --mode 1920x1080
 
 #exec /usr/bin/chromium --kiosk
