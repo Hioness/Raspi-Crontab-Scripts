@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Clone this repo before startup (fetching updates to scripts)
-cd Raspi-Crontab-Scripts
+#Update the scripts from github repo
+cd ~/Raspi-Crontab-Scripts
 git pull https://github.com/Hioness/Raspi-Crontab-Scripts
 
 echo 'on 0.0.0.0' | cec-client -s -d 1
