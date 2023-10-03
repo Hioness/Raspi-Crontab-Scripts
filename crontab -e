@@ -21,6 +21,6 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-0 17 * * 1-5 bash ~/Raspi-Crontab-Scripts/TV_off.sh
+0 18 * * 1-5 bash ~/Raspi-Crontab-Scripts/TV_off.sh
 
-30 8 * * 1-5 bash ~/Raspi-Crontab-Scripts/TV_on.sh
+0 8 * * 1-5 bash ~/Raspi-Crontab-Scripts/TV_on.sh
