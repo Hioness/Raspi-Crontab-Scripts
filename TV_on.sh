@@ -5,7 +5,7 @@ cd ~/Raspi-Crontab-Scripts
 git pull https://github.com/Hioness/Raspi-Crontab-Scripts
 
 echo 'on 0.0.0.0' | cec-client -s -d 1
-echo 'on 1.0.0.0' | cec-client -s -d 1
+echo 'on 1.0.0.0' | cec-ctl -s -d 1
 
 sleep 20
 
