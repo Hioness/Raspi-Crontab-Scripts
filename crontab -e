@@ -24,3 +24,5 @@
 0 18 * * 1-5 bash ~/Raspi-Crontab-Scripts/TV_off.sh
 
 0 8 * * 1-5 bash ~/Raspi-Crontab-Scripts/TV_on.sh
+
+0 * * * 1-5 bash ~/Raspi-Crontab-Scripts/do_now.sh
