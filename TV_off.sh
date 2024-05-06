@@ -9,3 +9,4 @@ echo 'standby 1.0.0.0' | cec-ctl -s -d 1
 
 # echo 'on 0.0.0.0' | cec-client -s -d 1
 #exec /usr/bin/chromium --kiosk
+#exec /usr/bin/firefox --kiosk
