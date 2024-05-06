@@ -13,3 +13,4 @@ sleep 20
 xrandr --output HDMI-1 --mode 1920x1080
 
 #exec /usr/bin/chromium --kiosk
+#exec /usr/bin/firefox --kiosk
